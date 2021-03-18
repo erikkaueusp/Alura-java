@@ -1,6 +1,6 @@
 package com.company;
 
-public class ContaCorrente extends ContaI {
+public class ContaCorrente extends ContaI implements Tributavel{
 
     public ContaCorrente(int agencia, int numero) {
         super(agencia,numero);
@@ -16,4 +16,10 @@ public class ContaCorrente extends ContaI {
     public void deposita(double valor) {
        super.saldo += valor;
     }
+
+    @Override
+    public double getValorImposto() {
+        return super.saldo*0.01;
+    }
 }
+
