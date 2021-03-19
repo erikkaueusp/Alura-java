@@ -5,6 +5,7 @@ public class Fluxo {
         metodo1();
         System.out.println("Fim do main");
         //saiodiohfew
+        //oioioioi
     }
 
     private static void metodo1() {
