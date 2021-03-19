@@ -4,6 +4,7 @@ public class Fluxo {
         System.out.println("Ini do main");
         metodo1();
         System.out.println("Fim do main");
+        //saiodiohfew
     }
 
     private static void metodo1() {
